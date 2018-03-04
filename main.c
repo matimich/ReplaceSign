@@ -1,7 +1,7 @@
 // Changing one direct sign into another in text file.
 
 #include <stdio.h>
-
+//#include "ReplaceSign.h"
 
 void ReplaceSign(void);
 

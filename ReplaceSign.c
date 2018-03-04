@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+//#include "ReplaceSign.h"
 
+#define OLD_FILE_PATH "text.txt"
+#define NEW_FILE_PATH "new.txt"
 
-#define OLD_FILE_PATH "text.txt"	//file with old text
-#define NEW_FILE_PATH "new.txt"		//file where corrected text will apper
-
-void ReplaceSign(void);
+void ReplaceSign(void)
 {
 
     char sign;      //remove
     char sign_2;    //new
 
-    printf("Enter new and an old sign in 'new-old' form:");
+    printf("Enter  new-old sign:");
     scanf("%c-%c",&sign_2,&sign);
 
 
@@ -54,8 +54,8 @@ void ReplaceSign(void);
 
         }
         else
-        {
-            fputs(array,another);
+        {   fputs(array,another);
+
         }
 
     }
