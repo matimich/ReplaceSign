@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-//#include "ReplaceSign.h"
-
-#define OLD_FILE_PATH "text.txt"
-#define NEW_FILE_PATH "new.txt"
+#include "ReplaceSign.h"
 
 void ReplaceSign(void)
 {
