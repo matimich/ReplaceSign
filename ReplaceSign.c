@@ -23,13 +23,13 @@ void ReplaceSign(void)
 
     if((file = fopen (OLD_FILE_PATH,"r"))==NULL)       //opening a core file
     {
-        printf ("Error, please try again");
+        printf ("\nError, the file not found, please try again");
         exit(EXIT_FAILURE);
     }
 
     if((another = fopen (NEW_FILE_PATH,"w"))==NULL)    //opening file where a changed tekst is going to be saved
     {
-        printf ("Error, please try again");
+        printf ("\nError, the file not found, please try again");
         exit(EXIT_FAILURE);
     }
 
