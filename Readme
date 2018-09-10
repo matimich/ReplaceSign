@@ -3,6 +3,7 @@ Platform:Linux/Windows
 
 
 The aim of the program is to change one direct sign in the text into another.
-In "ReplaceSign.h" user can set names of both files which will be used to change signs. Be default there are created files available to download from repository.
+In "ReplaceSign.h" user can set names of both files which will be used to change signs.
+By default there are created files available to download from the repository.
 
 To start the program, open "makefile" in console and then start the program.
