@@ -2,7 +2,7 @@ Author:Mateusz Michalski
 Platform:Linux/Windows
 
 
-The aim of the program is to change one direct sign in text into another.
-User has to create new text file where updated text will be depicited.
+The aim of the program is to change one direct sign in the text into another.
+An user has to create new text file where the updated text will be depicited.
 
 To start the program, open "makefile" in console and then start the program.
